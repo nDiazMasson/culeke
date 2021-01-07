@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "2.6.6"
+ruby "2.6.5"
 gem 'rails', '6.0.2.1'
 gem 'bcrypt', '3.1.13'
 gem 'puma', '3.12.2'
@@ -35,6 +35,7 @@ group :test do
   gem 'minitest-reporters', '1.3.8'
   gem 'guard', '2.15.0'
   gem 'guard-minitest', '2.4.6'
+  gem 'sqlite3'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
