@@ -1,0 +1,202 @@
+<div class= "container-fluid" id= "reglas" style= "Margin-top: 12vh">
+    <div class= "row">
+        <h1 class= "text-center col">
+                Reglas
+        </h1>
+    </div>
+    <div class="row">
+        <div class ="col">
+            <h4>
+            Necesitarás:
+            </h4>
+            <ul>
+                <li>
+                    Un cacho o vaso no transparente por jugador.
+                </li>
+                <li>
+                    3 dados por jugador.
+                </li>
+            </ul>  
+        </div>
+    </div>
+    <div class="row">
+        <div class ="col">
+            <h4>
+                Comienzo
+            </h4>
+            <ul>
+                <li>
+                    Cada jugador pone un dado al centro con el 6 mirando hacia arriba. Este dado representa sus vidas.
+                </li>
+                <li>
+                    Con 2 dados en tu vaso, voltealo y mira lo qué hay adentro. El jugador con la mejor mano tendrá el “culeke”. (Explicación más adelante).
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class ="col">
+            <h4>
+            Ranking
+            </h4>
+            <ul>
+                <li>
+                    Suma tus dados, el número mayor es el ganador.
+                </li>
+                <li>
+                    Un par es mejor que cualquier suma!
+                </li>
+                <li>
+                    Si ambos tienen un par, el par mayor ganará.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class ="col">
+            <h4>
+            Culeke
+            </h4>
+            <ul>
+                <li>
+                    “Tener el culeke”
+                </li>
+                <li>
+                    Significa que inicias la siguiente ronda diciendo “Cu-le-ke” (en 3 tiempos). 
+                </li>
+                    Solo tú tienes permitido decir la palabra completa. 
+                <li>
+                    Si lo dices y no volteas tu vaso, pierdes 1 vida.
+                </li>
+                <li>
+                    Si lo dices y alguien no voltea a tiempo, pierde una vida.
+                </li>
+                <li>
+                    La última persona en perder una vida tiene el Culeke.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class ="col">
+            <h4>
+                CULEKE!!
+            </h4>
+            <ul>
+                <li>
+                    Si sacas 2 y 3, felicitaciones! Di “Culeke” antes que la ronda comience y podrás quitarle una vida a algún jugador.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class ="col">
+            <h4>
+                Rondas
+            </h4>
+            <ul>
+                <li>
+                    El jugador que comienza dará la instrucción de voltear los vasos diciendo: “Cu-le-ke”. (Todos los jugadores deben voltear su vaso en el “ke”)
+                </li>
+                <li>
+                    Cada jugador mira lo qué hay dentro de su vaso.
+                </li>
+                    El jugador que comienza dirá un número. Con esto el dice que al menos tiene ese número. Jugará hacia la izquierda o derecha. Después de esto si alguien no usó su culeke (2 y 3) solo valdrá como un 5. 
+                <li>
+                    El segundo en jugar puede:
+                    <ul> 
+                        <li>
+                            Decir el mismo número y continuar la ronda.
+                        </li>
+                        <li>
+                            Subir el número y continuar la ronda.
+                        </li>
+                        <li>
+                            Dudar.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Recuerda que al decir un número, hablas de lo que hay en tu vaso. Cuando dudas, te refieres al del otro jugador.
+                </li>
+                <li>
+                    La ronda termina cuando un jugador duda. Si esta bien dudado, el jugador que mintió pierde una vida. Si esta mal dudado, el que dudo pierde una vida.
+                </li>
+                <li>
+                    El jugador más reciente en perder una vida tiene el “cu-le-ke” y da inicio a la siguiente ronda. Atento a quien fue el último jugador en perder una vida.
+                </li>
+                <li>
+                    El último jugador con vidas será el ganador.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col col-md-6 align-self-center">
+            <div id="carrousel-manos" class="carousel slide carousel-dark col-" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carrousel-manos" data-slide-to="0" class="active"></li>
+                        <li data-target="#carrousel-manos" data-slide-to="1"></li>
+                        <li data-target="#carrousel-manos" data-slide-to="2"></li>
+                        <li data-target="#carrousel-manos" data-slide-to="3"></li>
+                        <!--<li data-target="#carrousel-manos" data-slide-to="4"></li>-->
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <%= image_tag  "reglas_inicio-min", class: "d-block w-100" %>
+                            <div class="carousel-caption d-lg-none">
+                                <h4>3 dados, 1 son tus vidas</h4>
+                            </div>
+                            <div class="carousel-caption d-none d-lg-block">
+                                <h3>3 dados, 1 son tus vidas</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <%= image_tag  "reglas_manos_1-min", class: "d-block w-100" %>
+                            <div class="carousel-caption d-lg-none">
+                                <h4>9 > 3</h4>
+                            </div>
+                            <div class="carousel-caption d-none d-lg-block">
+                                <h3>9 > 3</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <%= image_tag  "reglas_manos_2-min", class: "d-block w-100" %>
+                            <div class="carousel-caption d-lg-none">
+                                <h4>Par de Aces > 11</h4>
+                            </div>
+                            <div class="carousel-caption d-none d-lg-block">
+                                <h3>Par de Aces > 11</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <%= image_tag  "reglas_manos_3-min", class: "d-block w-100" %>
+                            <div class="carousel-caption d-lg-none">
+                                <h4>Par de 6's > Par de 5's</h4>
+                            </div>
+                            <div class="carousel-caption d-none d-lg-block">
+                                <h3>Par de 6's > Par de 5's</h4>
+                            </div>
+                        </div>
+                        <!--<div class="carousel-item">
+                            <%= image_tag  "reglas_culeke-min", class: "d-block w-100" %>
+                            <div class="carousel-caption d-lg-none">
+                                <h4>Recuerda decir CULEKE! antes de que inicie la ronda</h4>
+                            </div>
+                            <div class="carousel-caption d-none d-lg-block">
+                                <h3>Recuerda decir CULEKE! antes de que inicie la ronda</h4>
+                            </div>
+                        </div>-->
+                    </div>
+                    <a class="carousel-control-prev" href="#carrousel-manos" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carrousel-manos" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
