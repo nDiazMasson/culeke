@@ -11,6 +11,7 @@ gem 'jbuilder', '2.9.1'
 gem 'bootsnap', '1.4.5', require: false
 gem 'popper_js', '~> 1.14.5'
 gem 'pg', '1.1.4'
+gem 'webpacker', '~>5.1.1'
 
 
 
@@ -19,7 +20,6 @@ group :development, :test do
 end
 
 group :development do 
-  gem 'webpacker', '~>5.1.1'
   gem 'web-console', '4.0.1'
   gem 'listen', '3.1.5'
   gem 'spring', '2.1.0'
