@@ -2,7 +2,11 @@
     "name": "culeke",
     "private": true,
     "dependencies": {
-        "autoprefixer": "^6.5.4"
+        "autoprefixer": "^6.5.4",
+        "bootstrap": "4.3.1",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1",
+        "webpack": "^4.0.0"
     },
     "version": "0.1.0",
     "devDependencies": {
