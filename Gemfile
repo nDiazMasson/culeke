@@ -6,7 +6,7 @@ gem 'rails', '6.0.2.1'
 gem 'bcrypt', '3.1.13'
 gem 'puma', '3.12.2'
 gem 'sass-rails', '5.1.0'
-gem 'webpacker', '~>6.x'
+gem 'webpacker', '~>5.1.1'
 gem 'turbolinks', '5.2.0'
 gem 'jbuilder', '2.9.1'
 gem 'bootsnap', '1.4.5', require: false
